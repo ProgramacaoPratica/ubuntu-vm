@@ -10,6 +10,7 @@
 - Para adicionar permissão para executar o script, digite no terminal: **$ sudo chmod +x screen.sh**
 - Rode novamente o script no terminal **$ ./screen.sh**
 - Será exibida a janela em full HD, entretando, será necessário rodar este script toda vez que a VM é iniciada. Para alterar isso vamos criar um script de inicialização.
+- Abrir novamento o editor como root: **$ sudo gedit**
 - Criar arquivo "**screen.desktop**" na pasta **~/.config/autostart** (Adicione no arquivo o código abaixo: "**Aplicar resolução Full HD na inicialização**")
   - Conferir: abrir **app startup**
   
